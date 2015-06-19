@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinStudent_Simple"
+    android:layout_below="@+id/tvSpinner" />
+
+<Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinStudent"
+    android:layout_below="@+id/tvStudent" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Spinner Simple"
+    android:id="@+id/tvSpinner"
+    android:layout_alignParentTop="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Spinner"
+    android:id="@+id/tvStudent"
+    android:layout_below="@+id/spinStudent_Simple" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Name"
+    android:id="@+id/tvName"
+    android:layout_below="@+id/spinStudent"
+    android:layout_marginTop="32dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Age"
+    android:id="@+id/tvAge"
+    android:layout_marginTop="38dp"
+    android:layout_below="@+id/tvName" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Email"
+    android:id="@+id/tvEmail"
+    android:layout_marginTop="38dp"
+    android:layout_below="@+id/tvAge" />
+
+</RelativeLayout>
